@@ -10,6 +10,7 @@ Examples for [one.io](https://github.com/ephoton/one.io).
 git clone git@github.com:ephoton/one.io-examples.git
 cd one.io-examples
 npm install
+tsc
 npm start
 ```
 Then point your browser at http://localhost:3000
