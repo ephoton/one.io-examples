@@ -1,0 +1,32 @@
+{
+  "name": "one.io-examples",
+  "version": "1.0.0",
+  "description": "examples for one.io",
+  "main": "build/index.js",
+  "scripts": {
+    "test": "test",
+    "start": "DEBUG=* node ./build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ephoton/one.io-examples.git"
+  },
+  "keywords": [
+    "example",
+    "one.io"
+  ],
+  "author": "ephoton",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ephoton/one.io-examples/issues"
+  },
+  "homepage": "https://github.com/ephoton/one.io-examples#readme",
+  "dependencies": {
+    "@types/koa": "^2.0.39",
+    "@types/koa-views": "^2.0.2",
+    "handlebars": "^4.0.11",
+    "koa": "^2.4.1",
+    "koa-views": "^6.1.1",
+    "one.io": "^1.0.7"
+  }
+}
